@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    font-family: 'Roboto Slab', serif;
+}
+.btn{
+    background-color: rgb(255, 174, 0);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 20px;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(255, 174, 0);
+    transition: background-color 0.5s linear , color 0.5s ease-in;
+
+}
+h1{
+    font-size: 45px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+header{
+    
+    background-color: rgb(83, 83, 146);
+    height: 100vh;
+}
+.font-page{
+    display: flex;
+    align-items: center;
+    margin: 0px 50px;
+}
+.hero strong {
+    color: rgb(255, 174, 0);
+}
+.hero-im{
+    background-color: white;
+    border-radius: 25%;
+    height: 500px;
+    margin: 20px;
+}
+.hero-im:hover{
+    background-color: rgb(255, 174, 0);
+    border-radius: 25%;
+    transition: background-color 1s linear;
+}
+.hero a{
+    color: darkgrey;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.hero a:hover{
+    color: red;
+    transition: color 0.5s linear;
+}
+
+
+/* Game page Css */
+.ground{
+    height: 100vh;
+    align-items: flex-end;
+    background: url(image/field.png) no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.needeq{
+    display: flex;
+    align-items: center;
+    border-color: yellow;
+    margin: 0px 50px 50px 50px;
+}
+.stame{
+    height: 200px;
+}
+.bat{
+    height: 150px;
+    transform-origin: top;
+}
+
+.needeq:hover .bat{
+    transform: rotate(-60deg);
+    transition: transform 0.1s ease-in;
+}
+.ball{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 25px;
+    margin-top: 120px;
+}
+
+.needeq:hover .ball{
+    transform: translate(700px);;
+    transition: transform 5s ease-out 0.1s;
+}
